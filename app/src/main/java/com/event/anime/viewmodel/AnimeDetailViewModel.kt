@@ -57,6 +57,11 @@ class AnimeDetailViewModel @Inject constructor(
                 }
 
                 is ResponseState.Error -> {
+                    uiState.update {
+                        it.copy(
+                            isLoading = false
+                        )
+                    }
                     showSnackBar(response.message.toString())
                 }
             }

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Anime</string>
+    <string name="desc_animes">Animes</string>
+    <string name="desc_episodes">Episodes : </string>
+    <string name="desc_rating">Rating : </string>
+    <string name="decs_genres">Genres :</string>
+</resources>
